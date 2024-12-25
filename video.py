@@ -124,7 +124,7 @@ while not FINALIZAR:
             GAME_PAUSED = not GAME_PAUSED
             
     else:
-        screen.fill((252, 132, 3))
+        screen.fill((255, 0, 255))
         pygame.mouse.set_visible(True)
         for event in pygame.event.get():
     
